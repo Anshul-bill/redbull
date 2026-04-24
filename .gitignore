@@ -1,0 +1,22 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtualenv
+.venv/
+
+# ML artifacts (not committed)
+catboost_info/
+models/
+outputs/
+*.keras
+*.joblib
+*.pt
+
+# OS-specific system files
+.DS_Store
+Thumbs.db
+
+# Optional: ignore Excel data
+# data/*.xlsx
